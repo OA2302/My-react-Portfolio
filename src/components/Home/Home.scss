@@ -3,7 +3,7 @@
     .text-zone {
         position: absolute;
         top: 50%;
-        left: 10%;
+        left: 20%;
         transform: translateY(-50%);
     }
 
@@ -38,7 +38,42 @@
         img {
             width: 32px;
             border-radius: 50%;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
         }
     }
 
+}
+
+h2 {
+    color: #8d8d8d;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: faedIn 1s 1.8s backwards ;
+}
+
+.flat-bottom {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    &:hover {
+        background: #ffd700;
+        color: #333;
+        transition: 1.5s;
+    }
 }

@@ -7,16 +7,16 @@ const Home = () => {
   return (
     <div className="conatainer home-page">
         <div className="text-zone">
-            <h1>Hi <br/> I'm 
-            <img src={Logo} alt='developer'/>
-           kikiOluwa Adenekan
+            <h1>Hi <br/> I'm <br/>
+            <img src={Logo} alt='developer'/>kikiOluwa Adenekan
             <br/>
             Front-End Developer
             </h1>
             <h2>Front-End Developer / UI/UX Designer  </h2>
-                <Link>CONTACT ME</Link>
+                <Link className='flat-bottom'>CONTACT ME</Link>
         </div>
     </div>
+
   )
 }
 

@@ -11,7 +11,7 @@ const Sidebar = () => (
         <Link className='logo' to='/'>
             <img src={me} alt='logo' />
         </Link>
-        <h1><small>Adenekan Okikioluwa</small></h1>
+        <h2><small>Adenekan Okikioluwa</small></h2>
         <nav>
 
        <div className='ul'>
