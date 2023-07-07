@@ -8,15 +8,16 @@ import Logos from './Logo/Logo';
 const Home = () => {
   const [letterClass, setLetterClass] =useState('text-animate')
   const nameArray = ['k','i','k','i'];
-  const jobArray = ['F','r','o','n','t','-','E','n','d','','D','e','v','e','l','e','r',];
+  const jobArray = ['F','r','o','n','t','-','E','n','d','','D','e','v','e','l','o','p','e','r',];
   const hi = ['H', 'i', ','];
   const im = ["I","'m"]
- /* useEffect(() => {
+  /*useEffect(() => {
     return setTimeout (() => {
       setLetterClass('text-animate-hover')
     }, 4000 )
   }, [] );*/
   return (
+    <>
     <div className="conatainer home-page">
         <div className="text-zone">
             <h1> 
@@ -45,6 +46,7 @@ const Home = () => {
         </div>
         <Logos />
     </div>
+    </>
 
   )
 }
