@@ -1,5 +1,4 @@
-.about-page {
-    .time-zone {
+.time-zone {
         position: absolute;
         left: 10%;
         top: 50%;
@@ -59,7 +58,9 @@
                     color: #fff;
                 }
             }
-    }
+        }
+    
+    
 
 .stage-cube-cont {
     width: 50%;
@@ -71,6 +72,8 @@
     right: 0;
     overflow: hidden;
 }
+
+
 
 .cubespinner {
     animation-name: spincube;
@@ -131,4 +134,4 @@
         transform: rotatex(90deg) rotateZ(90deg);
     }
 }
-}
+

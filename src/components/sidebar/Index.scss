@@ -37,7 +37,8 @@
         width: 100%;
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: transparent;
+            border: 2px solid white;
             display: block;
             height: 51px;
             line-height: 51px;
@@ -47,7 +48,7 @@
                 transition: all 0.3s ease-out;
             }
             &:hover {
-                color: #ffd700;
+                color: white;
                 svg {
                     opacity: 0;
                 }
@@ -84,7 +85,7 @@
             }
             a.active {
                 svg {
-                color: #ffd700;
+                color: white;
             }
         }
     }
@@ -115,7 +116,7 @@
         line-height: 16px;
         font-size: 15px;
         &:hover svg {
-            color: #ffd700;
+            color: white;
         }
     }
    }

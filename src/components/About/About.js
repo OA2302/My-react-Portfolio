@@ -15,7 +15,7 @@ const About = () => {
     return (
         <>
     <div className='container about-page'>
-            <div className='teat-zone'>
+            <div className='time-zone'>
                 <h1>
                     <AnimatedLetter
                     strArray={['A','b','o','u','t','','','m','e']}
@@ -23,7 +23,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I'm a ver ambitious Front-end Developer looking for role in an established IT company
+                    I'm a very ambitious Front-end Developer looking for role in an established IT company
                     with the opportunity to work with the latest technologies on challenging and diversed projects. 
                 </p>
                 <p>
