@@ -3,6 +3,7 @@ import AnimatedLetter from '../AnimatedLetters/Index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGithub, faHtml5, faJs, faReact, faUikit } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
+import Loader from '../Loader/Loader';
 
 const About = () => {
     const [letterClass, setLetterClass] =useState('text-animate')
@@ -18,7 +19,7 @@ const About = () => {
             <div className='time-zone'>
                 <h1>
                     <AnimatedLetter
-                    strArray={['A','b','o','u','t','','','m','e']}
+                    strArray={['A','b','o','u','t',' ','','m','e']}
                     idx={15}
                     />
                 </h1>
@@ -58,6 +59,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader />
         </>
     )
 }

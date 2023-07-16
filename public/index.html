@@ -25,9 +25,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xo2dZBNTC5n17xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAsOM56"
+    crossorigin=""
+    />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +43,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    >
+    </script>
+    <script
+    type="text/javascript">
+    ; (function () {
+      emailjs.init('okikiadenekan3@gmail.com')
+    })();
+  </script>
   </body>
 </html>

@@ -4,6 +4,8 @@
     height: 100px;
     margin: 50px auto;
     background-color: transparent;
+    animation: fadeOut 2s ;
+    animation-fill-mode: forwards;
 }
 .pacman{
       transform:translateZ(0);
@@ -14,9 +16,8 @@
       border: 30px solid #FFEE00;
       border-right: 30px solid transparent;
       -webkit-animation: pacman 5s linear 0s infinite;
-      animation:  pacman 5s linear 0s infinite  ;
-      -moz-animation: pacman 5s linear 0s infinite  ;
-       
+      animation:  pacman 5s linear 0s infinite ;
+      -moz-animation: pacman 2s linear 0s infinite  ;
     }
 
 
