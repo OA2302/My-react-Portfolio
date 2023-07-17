@@ -3,7 +3,7 @@ import './Index.scss';
 import { Form, Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope} from  '@fortawesome/free-solid-svg-icons';
-import {faLinkedin, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faTwitter, faRProject} from '@fortawesome/free-brands-svg-icons'
 import me from '../../assets/images/me.jpg'
 
 const Sidebar = () => (
@@ -35,6 +35,14 @@ const Sidebar = () => (
             >
                     <a>
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+                    </a>
+            </NavLink>
+            <NavLink exact="true"
+                activeclassname="active"
+                className="contact-link" to="/project"
+            >
+                    <a>
+                    <FontAwesomeIcon icon={faRProject} color='#4d4d4e' />
                     </a>
             </NavLink></li>
        </div>
