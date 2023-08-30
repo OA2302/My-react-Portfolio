@@ -14,6 +14,7 @@
     opacity: 0.6;
     position: absolute;
     bottom: 0;
+    position: fixed;
     left: 200px;
     font-size: 10px;
     font-family: 'Ubuntu-Medium';
@@ -21,7 +22,6 @@
 
 .bottom-tag-html {
     margin-left: -60px;
-    padding-top: 80px;
 }
 
 .container {

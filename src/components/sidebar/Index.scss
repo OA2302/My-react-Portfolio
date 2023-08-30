@@ -2,10 +2,10 @@
     background: #181818;
     width: 80px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 3;
-    min-height: 100%;
+    min-height: 500px;
 
     .logo {
         display: block;
@@ -35,7 +35,6 @@
         top: 50%;
         margin: -120px;
         width: 100%;
-        li{
         a {
             font-size: 22px;
             color: transparent;
@@ -69,28 +68,27 @@
                 transition: all 0.3s ease-out;
             }
             &:first-child{
-                &::after {
+                &:hover {
                     content: 'HOME';
                 }
             }
             }
-            a.about-link {
-                &:after {
+            .about-link {
+                &:hover {
                     content:'ABOUT';
                 }
             }
-            a.contact-link {
-                &:after {
+            .contact-link {
+                &:hover {
                     content:'CONTACT';
                 }
             }
-            a.active {
+            .active {
                 svg {
                 color: white;
             }
         }
     }
-}
     }
     .ul {
     position: absolute;

@@ -44,7 +44,9 @@ const Sidebar = () => (
                     <a>
                     <FontAwesomeIcon icon={faRProject} color='#4d4d4e' />
                     </a>
-            </NavLink></li>
+            </NavLink>
+            
+        </li>
        </div>
             <ul>
                 <li>

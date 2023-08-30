@@ -42,7 +42,7 @@ const Home = () => {
              idx={22} />
             </h1>
             <h2>Front-End Developer / UI/UX Designer  </h2>
-                <Link className='flat-bottom'>CONTACT ME</Link>
+                <Link className='flat-bottom'><a href='tel:+2348134990495'>CONTACT ME</a></Link>
         </div>
         <Logos />
     </div>
